@@ -1,11 +1,5 @@
 name: vprofile actions
-# on: workflow_dispatch
-on: 
-  push:
-    branches: 
-      - main
-    paths: 
-      - **
+on: workflow_dispatch
 
 env:
   AWS_REGION: us-east-1
